@@ -1,0 +1,2 @@
+## ---- Consumable Lockpick ----
+give @p tripwire_hook[max_stack_size=1,custom_name='"Lockpick"',hide_additional_tooltip={},rarity="uncommon",custom_data={itemDoorKey:true},attribute_modifiers={modifiers:[{id:"entity_interaction_range",type:"entity_interaction_range",amount:-4,operation:"add_value",slot:"mainhand"},{id:"block_interaction_range",type:"block_interaction_range",amount:-3,operation:"add_value",slot:"mainhand"}],show_in_tooltip:false}] 1

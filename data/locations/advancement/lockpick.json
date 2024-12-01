@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:tripwire_hook",
+          "count": 1,
+          "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:custom_data": "{itemDoorKey:true}"
+          }
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:interaction"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "locations:lockpicks"
+  }
+}

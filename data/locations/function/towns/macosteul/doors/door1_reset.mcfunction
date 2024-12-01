@@ -1,0 +1,1 @@
+setblock 3810 44 3845 air

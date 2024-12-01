@@ -1,0 +1,1 @@
+#execute as @a[predicate=locations:towns/macosteul] at @s run function locations:towns/macosteul/active

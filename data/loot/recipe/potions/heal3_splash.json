@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      [
+        "minecraft:splash_potion"
+      ],
+      [
+        "minecraft:red_dye"
+      ],
+      [
+        "minecraft:red_dye"
+      ],
+      [
+        "minecraft:red_dye"
+      ],
+      [
+        "minecraft:red_dye"
+      ],
+      [
+        "minecraft:red_dye"
+      ],
+      [
+        "minecraft:red_dye"
+      ],
+      [
+        "minecraft:red_dye"
+      ],
+      [
+        "minecraft:red_dye"
+      ]
+    ],
+    "result": {
+      "id": "minecraft:splash_potion",
+      "count": 1,
+      "components": {
+        "minecraft:potion_contents": {
+          "custom_color": 14090240,
+          "custom_effects": [
+            {
+              "id": "minecraft:instant_health",
+              "amplifier": 2,
+              "ambient": false,
+              "show_particles": false,
+              "show_icon": false
+            }
+          ]
+        },
+        "item_name": "{\"translate\":\"Splash Potion of Healing III\",\"color\":\"white\",\"italic\":false}",
+        "lore": ["[{\"translate\":\"Heal for 8 Hearts\",\"color\":\"dark_red\",\"italic\": false}]"],
+        "minecraft:hide_additional_tooltip": {}
+      }
+    }
+  }
+  

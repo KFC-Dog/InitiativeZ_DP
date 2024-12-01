@@ -1,0 +1,38 @@
+{
+    "pools": [
+      {
+        "rolls": 3,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wooden_axe",
+            "weight": 2,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1,
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:arrow",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_leggings",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:5"
+  }
+  

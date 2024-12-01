@@ -1,0 +1,26 @@
+
+  {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      [
+        "minecraft:red_dye"
+      ],
+      [
+        "minecraft:potion"
+      ]
+    ],
+    "result": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:item_name": "{\"translate\":\"Potion of Healing\",\"color\":\"white\",\"italic\":false}",
+        "minecraft:lore": [
+          "[ {\"translate\":\"Heal for 2 Hearts\",\"color\":\"dark_red\",\"italic\": false}]"
+        ],
+        "minecraft:hide_additional_tooltip": {},
+        "minecraft:potion_contents": {
+          "potion": "minecraft:healing"
+        }
+      }
+    }
+  }
+  

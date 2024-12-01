@@ -1,0 +1,24 @@
+
+  {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      [
+        "minecraft:green_dye"
+      ],
+      [
+        "minecraft:potion"
+      ]
+    ],
+    "result": {
+      "id": "minecraft:milk_bucket",
+      "components": {
+        "minecraft:item_name": "{\"translate\":\"Antidote\",\"color\":\"white\",\"italic\":false}",
+        "minecraft:lore": [
+          "[{\"translate\":\"Cures the Plague\",\"color\":\"blue\",\"italic\": false}]"
+        ],
+        "minecraft:custom_data": "{itemAntidote:true}",
+        "minecraft:hide_additional_tooltip": {}
+      }
+    }
+  }
+  
